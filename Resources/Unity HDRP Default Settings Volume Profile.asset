@@ -788,14 +788,6 @@ MonoBehaviour:
     m_Value:
     - {fileID: 11400000, guid: 2384dbf2c1c420f45a792fbc315fbfb1, type: 2}
     - {fileID: 11400000, guid: 404820c4cf36ad944862fa59c56064f0, type: 2}
-    - {fileID: 11400000, guid: d31232252cdb3204c8e47ee55df50611, type: 2}
-    - {fileID: 11400000, guid: 4aca4022a8df6ee499e03c1696fd24ee, type: 2}
-    - {fileID: 11400000, guid: 89193b33f18cef1498056f4e2745d7f5, type: 2}
-    - {fileID: 11400000, guid: 1a1a2468d7e2fb64a8fbcea1e119bef0, type: 2}
-    - {fileID: 11400000, guid: 2792bbfde4f0f33428e0409af8d0553d, type: 2}
-    - {fileID: 11400000, guid: 9727d36e42d87c04397f6fe53315ab88, type: 2}
-    - {fileID: 11400000, guid: 61ae3b7e39551bf4eb4b5ef7ce59c92d, type: 2}
-    - {fileID: 11400000, guid: ebe334edc7dfe634fab2150359188f4f, type: 2}
 --- !u!114 &-2927502237476650339
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1371,7 +1363,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: DefaultVolumeProfile
+  m_Name: Unity HDRP Default Settings Volume Profile
   m_EditorClassIdentifier: 
   components:
   - {fileID: 1359070828411649799}
