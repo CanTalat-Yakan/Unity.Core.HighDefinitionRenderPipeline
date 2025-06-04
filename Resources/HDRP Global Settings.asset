@@ -195,29 +195,7 @@ MonoBehaviour:
       - rid: 4894285277015834855
       - rid: 4894285277015834856
     m_RuntimeSettings:
-      m_List:
-      - rid: 8556427327610290176
-      - rid: 3469837991665205315
-      - rid: 8556427327610290180
-      - rid: 566591618197225472
-      - rid: 566591618197225473
-      - rid: 566591618197225474
-      - rid: 566591618197225475
-      - rid: 566591618197225477
-      - rid: 566591618197225478
-      - rid: 566591618197225479
-      - rid: 566591618197225482
-      - rid: 566591618197225483
-      - rid: 566591618197225484
-      - rid: 566591618197225486
-      - rid: 566591618197225489
-      - rid: 566591618197225490
-      - rid: 566591618197225492
-      - rid: 566591618197225493
-      - rid: 566591618197225494
-      - rid: 566591618197225495
-      - rid: 566591618197225496
-      - rid: 4894285277015834856
+      m_List: []
   renderingLayerNames:
   - Light Layer default
   - Light Layer 1
@@ -318,7 +296,7 @@ MonoBehaviour:
       type: {class: WaterSystemGlobalSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 1
-        m_EnableMaskAndCurrentWaterDecals: 0
+        m_EnableMaskAndCurrentWaterDecals: 1
     - rid: 566591618197225474
       type: {class: AnalyticDerivativeSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
@@ -417,7 +395,7 @@ MonoBehaviour:
         m_DebugHDRxyMappingCS: {fileID: 7200000, guid: f055d2983d992b64494f1a03fc725cde, type: 3}
         m_ProbeVolumeSamplingDebugComputeShader: {fileID: 7200000, guid: 22de19bc461f84742857dd64c56b0397, type: 3}
         m_PlanarReflectionFilteringCS: {fileID: 7200000, guid: 9f3f8a01b8caaaa4595591dc96d43dd2, type: 3}
-        m_ScreenSpaceGlobalIlluminationCS: {fileID: 7200000, guid: 96170a954eb538b40a5ff369552c3629, type: 3}
+        m_ScreenSpaceGlobalIlluminationCS: {fileID: 7200000, guid: 03094df825a9bfb40a603d76faed79c9, type: 3}
         m_ScreenSpaceReflectionsCS: {fileID: 7200000, guid: d1de9ac7d9016204da289affe9677942, type: 3}
         m_ClearDispatchIndirectCS: {fileID: 7200000, guid: fc1f553acb80a6446a32d33e403d0656, type: 3}
         m_ClearLightListsCS: {fileID: 7200000, guid: 743eb3491795b9545955695d591195a1, type: 3}
