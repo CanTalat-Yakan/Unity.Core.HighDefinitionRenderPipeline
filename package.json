@@ -1,7 +1,7 @@
 {
   "name": "com.unityessentials.hdrp",
   "version": "1.0.0",
-  "displayName": "UnityEssentials HDRP",
+  "displayName": "UnityEssentials HighDefinitionRenderPipeline",
   "description": "This is a part of the UnityEssentials Ecosystem",
   "unity": "2022.1",
   "unityRelease": "",
