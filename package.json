@@ -1,13 +1,11 @@
 {
-  "name": "com.unityessentials.hdrp",
+  "name": "com.unityessentials.hdrpresources",
   "version": "1.0.0",
-  "displayName": "Unity Core HighDefinitionRenderPipeline",
+  "displayName": "Unity Core HDRP Resources",
   "description": "This is a part of the UnityEssentials Ecosystem",
   "unity": "6000.0",
   "unityRelease": "",
-  "dependencies": {
-    "com.unityessentials.core": "1.0.0"
-  },
+  "dependencies": {},
   "keywords": [],
   "author": {
     "name": "Unity Essentials",

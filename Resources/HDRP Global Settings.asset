@@ -156,6 +156,7 @@ MonoBehaviour:
       sssCustomDownsampleSteps: 0
       msaaMode: 1
       materialQuality: 0
+  m_Version: 14
   m_Settings:
     m_SettingsList:
       m_List:
@@ -194,32 +195,12 @@ MonoBehaviour:
       - rid: 566591618197225496
       - rid: 4894285277015834855
       - rid: 4894285277015834856
+      - rid: 8579261248141000831
+      - rid: 8579261248141000832
+      - rid: 8579261248141000833
+      - rid: 8579261248141000834
     m_RuntimeSettings:
-      m_List:
-      - rid: 8556427327610290176
-      - rid: 3469837991665205315
-      - rid: 8556427327610290180
-      - rid: 566591618197225472
-      - rid: 566591618197225473
-      - rid: 566591618197225474
-      - rid: 566591618197225475
-      - rid: 566591618197225477
-      - rid: 566591618197225478
-      - rid: 566591618197225479
-      - rid: 4369023842032025843
-      - rid: 566591618197225482
-      - rid: 566591618197225483
-      - rid: 566591618197225484
-      - rid: 4369023842032025844
-      - rid: 566591618197225486
-      - rid: 566591618197225489
-      - rid: 566591618197225490
-      - rid: 566591618197225492
-      - rid: 566591618197225493
-      - rid: 566591618197225494
-      - rid: 566591618197225495
-      - rid: 566591618197225496
-      - rid: 4894285277015834856
+      m_List: []
   renderingLayerNames:
   - Light Layer default
   - Light Layer 1
@@ -260,7 +241,6 @@ MonoBehaviour:
     obsoleteHasProbeVolumes:
       m_Keys: []
       m_Values: 
-  m_Version: 14
   references:
     version: 2
     RefIds:
@@ -419,7 +399,7 @@ MonoBehaviour:
         m_DebugHDRxyMappingCS: {fileID: 7200000, guid: f055d2983d992b64494f1a03fc725cde, type: 3}
         m_ProbeVolumeSamplingDebugComputeShader: {fileID: 7200000, guid: 22de19bc461f84742857dd64c56b0397, type: 3}
         m_PlanarReflectionFilteringCS: {fileID: 7200000, guid: 9f3f8a01b8caaaa4595591dc96d43dd2, type: 3}
-        m_ScreenSpaceGlobalIlluminationCS: {fileID: 7200000, guid: 03094df825a9bfb40a603d76faed79c9, type: 3}
+        m_ScreenSpaceGlobalIlluminationCS: {fileID: 7200000, guid: 96170a954eb538b40a5ff369552c3629, type: 3}
         m_ScreenSpaceReflectionsCS: {fileID: 7200000, guid: d1de9ac7d9016204da289affe9677942, type: 3}
         m_ClearDispatchIndirectCS: {fileID: 7200000, guid: fc1f553acb80a6446a32d33e403d0656, type: 3}
         m_ClearLightListsCS: {fileID: 7200000, guid: 743eb3491795b9545955695d591195a1, type: 3}
@@ -897,3 +877,35 @@ MonoBehaviour:
         m_SMAAAreaTex: {fileID: 2800000, guid: 92e0d85ab4eca874098e7fcf6f8f674e, type: 3}
         m_DefaultHDRISky: {fileID: 8900000, guid: 8253d41e6e8b11a4cbe77a4f8f82934d, type: 3}
         m_DefaultCloudMap: {fileID: 2800000, guid: 57a33fc2476a01644865bfde5f06e2f4, type: 3}
+    - rid: 8579261248141000831
+      type: {class: RayTracingRenderPipelineResources, ns: UnityEngine.Rendering.UnifiedRayTracing, asm: Unity.UnifiedRayTracing.Runtime}
+      data:
+        m_Version: 1
+        m_GeometryPoolKernels: {fileID: 7200000, guid: 98e3d58cae7210c4786f67f504c9e899, type: 3}
+        m_CopyBuffer: {fileID: 7200000, guid: 1b95b5dcf48d1914c9e1e7405c7660e3, type: 3}
+        m_CopyPositions: {fileID: 7200000, guid: 1ad53a96b58d3c3488dde4f14db1aaeb, type: 3}
+        m_BitHistogram: {fileID: 7200000, guid: 8670f7ce4b60cef43bed36148aa1b0a2, type: 3}
+        m_BlockReducePart: {fileID: 7200000, guid: 4e034cc8ea2635c4e9f063e5ddc7ea7a, type: 3}
+        m_BlockScan: {fileID: 7200000, guid: 4d6d5de35fa45ef4a92119397a045cc9, type: 3}
+        m_BuildHlbvh: {fileID: 7200000, guid: 2d70cd6be91bd7843a39a54b51c15b13, type: 3}
+        m_RestructureBvh: {fileID: 7200000, guid: 56641cb88dcb31a4398a4997ef7a7a8c, type: 3}
+        m_Scatter: {fileID: 7200000, guid: a2eaeefdac4637a44b734e85b7be9186, type: 3}
+    - rid: 8579261248141000832
+      type: {class: ColorCheckerResources, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_ColorCheckerMaterial: {fileID: 2100000, guid: 7a1044256d39dba4aa777255550527bf, type: 2}
+    - rid: 8579261248141000833
+      type: {class: RenderingDebuggerRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_version: 0
+    - rid: 8579261248141000834
+      type: {class: WorldRenderPipelineResources, ns: UnityEngine.PathTracing.Core, asm: Unity.PathTracing.Runtime}
+      data:
+        _version: 3
+        _blitCubemap: {fileID: 7200000, guid: 5a992812cb320d146a66cc600200cce7, type: 3}
+        _blitGrayScaleCookie: {fileID: 7200000, guid: 557fa399e33bf7647bda5697c5c158df, type: 3}
+        _setAlphaChannelShader: {fileID: 7200000, guid: 5efaea0e81c66334aa9d062d6573e6fd, type: 3}
+        _pathTracingSkySamplingDataShader: {fileID: 7200000, guid: 5bb2534d2411d344cbc54f880232640f, type: 3}
+        _skyBoxMesh: {fileID: 4300000, guid: 0529e6c5f6dea8c4a8c2835ed7de57cb, type: 2}
+        _sixFaceSkyBoxMesh: {fileID: 4300000, guid: a80925ceebd011741b42509226cefc74, type: 2}
+        _buildLightGridShader: {fileID: 7200000, guid: 16e47c1641bd0104e92b624601457bb0, type: 3}
